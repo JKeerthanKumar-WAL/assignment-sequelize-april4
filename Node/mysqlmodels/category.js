@@ -22,6 +22,4 @@ const Category = db.define(
     freezeTableName: true,
   }
 );
-export default Category;
-
-//equivalent sql query is CREATE TABLE category(id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50), description VARCHAR(200))
+module.exports = Category;

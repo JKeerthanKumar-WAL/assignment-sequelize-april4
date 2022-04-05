@@ -25,6 +25,4 @@ const Users = db.define(
     freezeTableName: true,
   }
 );
-export default Users;
-
-//equivalent sql query is CREATE TABLE users(id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(30), password VARCHAR(30), dob DATE)
+module.exports = Users;
